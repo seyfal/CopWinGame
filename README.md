@@ -32,17 +32,6 @@
 10. [Known Bugs and Issues](#known-bugs-and-issues)
 11. [References and Citations](#references-and-citations)
 
-## Quick Start
-
-### Prerequisites
-- Scala 2.13.x
-- sbt 1.x
-
-### Setup and Execution
-1. Clone the repository for each microservice.
-2. Follow the instructions in each repository to compile and run the services.
-3. Ensure the services are correctly configured to communicate with each other.
-
 ## Video Walkthru
 
 A video walkthru explaining the entire system, including microservices interactions and deployment https://youtu.be/wrUE1sUKhKw
