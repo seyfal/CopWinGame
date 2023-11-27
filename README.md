@@ -36,8 +36,6 @@
 
 ## Introduction
 
-This project simulates Man-in-the-Middle (MitM) attacks within large graph structures using a microservices architecture. It leverages the power of Apache Spark for distributed processing and Scala for programming the core functionalities. The simulation analyzes network communication pathways, identifying nodes with valuable data, and employs the SimRank algorithm for detecting genuine nodes and honeypots.
-
 ---
 
 ## Microservices Architecture
@@ -62,7 +60,6 @@ Each service is designed to function independently while seamlessly communicatin
 ## Quick Start
 
 ### Prerequisites
-- Apache Spark 3.x
 - Scala 2.13.x
 - sbt 1.x
 
@@ -73,8 +70,7 @@ Each service is designed to function independently while seamlessly communicatin
 
 ## Video Walkthru
 
-A video walkthru explaining the entire system, including microservices interactions and deployment - [YouTube Link](https://youtu.be/V4WncbKnSck) or [Vimeo Link](https://vimeo.com/881130606?share=copy).
-
+A video walkthru explaining the entire system, including microservices interactions and deployment - [YouTube Link](https://youtu.be/wrUE1sUKhKw)
 ---
 
 ## System Architecture
