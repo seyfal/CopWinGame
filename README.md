@@ -70,7 +70,7 @@ Each service is designed to function independently while seamlessly communicatin
 
 ## Video Walkthru
 
-A video walkthru explaining the entire system, including microservices interactions and deployment - [YouTube Link](https://youtu.be/wrUE1sUKhKw)
+A video walkthru explaining the entire system, including microservices interactions and deployment https://youtu.be/wrUE1sUKhKw
 ---
 
 ## System Architecture
