@@ -67,9 +67,8 @@ Each service is designed to function independently while seamlessly communicatin
 
 ### Running the Services
 1. Clone the repository for each service.
-2. Build Docker images for each service.
-3. Deploy the images to a Docker swarm or Kubernetes cluster.
-4. Ensure network connectivity between the services.
+2. Modify the Conf file based on your paths and other needs
+3. Run using ```sbt clean compile run```
 
 ---
 
