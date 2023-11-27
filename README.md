@@ -4,7 +4,7 @@
 ![Version](https://img.shields.io/badge/version-1.1.0-blue)
 ![Scala Version](https://img.shields.io/badge/Scala-2.13.10-red)
 ![Akka HTTP Version](https://img.shields.io/badge/Akka-10.5.0-blueviolet)
-![Akka Version](https://img.shields.io/badge/Akka-2.8.0-blueviolet)
+![Akka Version](https://img.shields.io/badge/Akka-HTTP-2.8.0-blueviolet)
 ![ScalaTest Version](https://img.shields.io/badge/ScalaTest-3.2.x-orange)
 ![Typesafe Config Version](https://img.shields.io/badge/Typesafe_Config-1.4.1-brightgreen)
 ![Logback Version](https://img.shields.io/badge/Logback-1.2.3-yellow)
