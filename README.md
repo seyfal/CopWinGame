@@ -32,11 +32,25 @@
 10. [Known Bugs and Issues](#known-bugs-and-issues)
 11. [References and Citations](#references-and-citations)
 
+## Quick Start
+
+### Prerequisites
+- Scala 2.13.x
+- sbt 1.x
+
+### Setup and Execution
+1. Clone the repository for each microservice.
+2. Follow the instructions in each repository to compile and run the services.
+3. Ensure the services are correctly configured to communicate with each other.
+
+## Video Walkthru
+
+A video walkthru explaining the entire system, including microservices interactions and deployment https://youtu.be/wrUE1sUKhKw
 ---
 
 ## Introduction
 
----
+This project focuses on a distributed graph-based simulation system, designed to model and analyze interactions in a networked environment. The system is based on three interconnected microservices, each serving a distinct role within the broader architecture. The simulation's primary objective is to understand dynamic interactions within a graph structure, particularly focusing on strategic movements and decision-making processes.
 
 ## Microservices Architecture
 
@@ -55,52 +69,40 @@ Each service is designed to function independently while seamlessly communicatin
 - **PMS** handles player interactions, starting new games via **GLS**, and fetching game states and possible moves from **GQS**.
 - **GQS** interacts with **GLS** to fetch the current game state and then computes the potential moves and their confidence scores based on this state.
 
----
-
-## Quick Start
+## Setup and Execution
 
 ### Prerequisites
+- Java 8
 - Scala 2.13.x
-- sbt 1.x
+- sbt 1.9.x
 
-### Setup and Execution
-1. Clone the repository for each microservice.
-2. Follow the instructions in each repository to compile and run the services.
-3. Ensure the services are correctly configured to communicate with each other.
-
-## Video Walkthru
-
-A video walkthru explaining the entire system, including microservices interactions and deployment https://youtu.be/wrUE1sUKhKw
----
-
-## System Architecture
-
-The system architecture diagram highlights the interactions between the microservices, the distributed nature of the application, and how Apache Spark integrates with the system.
-
-![System Architecture Diagram](#) _[Image placeholder for system architecture visual representation]_
+### Running the Services
+1. Clone the repository for each service.
+2. Build Docker images for each service.
+3. Deploy the images to a Docker swarm or Kubernetes cluster.
+4. Ensure network connectivity between the services.
 
 ---
 
-## Code Logic and Flow
+## Technologies Used
 
-### Initialization
-The initialization process sets up the required environment for each microservice, including configuring Apache Spark and establishing communication channels between services.
-
-### Data Loading and Pre-processing
-Each microservice is responsible for loading and processing its relevant data, ensuring smooth interaction and data flow between services.
-
-### Distributed Matching
-The system collectively works to match nodes, compute statistics, and analyze the efficacy of simulated MitM attacks.
-
-### Post-processing and Result Compilation
-Results from the simulations are compiled, including success and failure rates of attacks, and insights into the effectiveness of the security mechanisms.
+- **Scala**: Programming language for service development.
+- **Akka HTTP**: Toolkit for building HTTP-based services.
+- **Docker**: Containerization platform.
+- **AWS**: For cloud deployment and scalability.
 
 ---
 
-## Generated Statistics
+## Potential Improvements
 
-The statistics offer insights into the success rates of attacks, the efficacy of the defense mechanisms, and the overall performance of the simulation.
+- **Load Balancing**: Implementing a load balancer to distribute requests evenly across service instances.
+- **Fault Tolerance**: Enhancing system robustness through advanced error handling and recovery mechanisms.
+- **UI/UX**: Developing a user interface for easier interaction and monitoring of the simulation.
 
----
+## License
+
+This project is licensed under the Apache 2.0 License. See [LICENSE](#) for more details.
+
+_The badges and other specific details can be adjusted as per the actual project specifications._
 
 ##
