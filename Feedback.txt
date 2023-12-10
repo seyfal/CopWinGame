@@ -1,0 +1,5 @@
+Student: Seyfal Sultanov
+
+Great implementation! Your code is clean and concise, and your solution is an interesting approach to the problem.
+
+Final Grade: 25%
